@@ -1,7 +1,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url(a.jpg);
+    background-image: url(bz.jpg);
+    font-weight: bold;
+    font-style: italic;
 }
 .container {
     display: grid;
@@ -40,7 +42,7 @@ h1{
       line-height: 35px;
   }
   li{
-      width: 250px;
+      width: 100%;
       display: inline-block;
       text-align: center;
   }
