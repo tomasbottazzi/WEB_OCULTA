@@ -56,3 +56,27 @@ h1{
   footer{
     background-color: black;
   }
+  @media (min-width: 320px){
+    iframe{
+        width: 350px;
+        height: 200px;
+    }
+}
+@media (min-width: 768px){
+    iframe{
+        width: 500px;
+        height: 350px;
+    }
+}
+@media (min-width: 1024px){
+    iframe{
+        width: 700px;
+        height: 500px;
+    }
+}
+@media (min-width: 1600px){
+    iframe{
+        width: 900px;
+        height: 700px;
+    }
+}
